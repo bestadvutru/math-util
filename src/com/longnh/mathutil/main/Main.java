@@ -14,7 +14,7 @@ import static com.longnh.mathutil.core.MathUtil.getFactorial;
 public class Main {
     public static void main(String[] args) {
         long expected = 120;
-        int n = 1;
+        int n = 5;
         long actual = getFactorial(n);
         System.out.println("expected = " + expected);
         System.out.println("actual = " + actual);
